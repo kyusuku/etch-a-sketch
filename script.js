@@ -13,6 +13,7 @@ btn.addEventListener("click", () => {
         numSquare = 1;
     }
     card.innerHTML = "";
+    opacity = 0;
     setGrid();
 });
 
