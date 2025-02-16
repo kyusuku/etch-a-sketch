@@ -42,8 +42,3 @@ function setGrid() {
 function setRandomColor() {
     return Math.floor(Math.random() * 255 * 10) / 10;
 }
-
-
-
-    
-
