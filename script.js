@@ -19,7 +19,7 @@ btn.addEventListener("click", () => {
 card.addEventListener("mouseover", (e) => {
     if (e.target.id === "square") {
         e.target.style.backgroundColor = `rgb(${setRandomColor()}, ${setRandomColor()}, ${setRandomColor()})`;
-        opacity += 0.1;
+        opacity += 0.01;
         e.target.style.opacity = opacity;
     }
 });
