@@ -1,0 +1,62 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    width: 100%;
+    overflow-x: auto;
+}
+
+body {
+    background-color: rgb(255, 253, 208);
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-width: 600px;
+}
+
+h1 {
+    margin-top: 100px;
+    font-size: 64px;
+    font-weight: bold;
+    font-family: "Cute Font";
+}
+
+button {
+    margin-top: 20px;
+    padding: 8px 16px;
+    border-radius: 5px;
+    border: #156b49 solid 2px;
+    color: white;
+    background-color: rgb(0, 75, 94);
+    font-size: 16px;;
+    font-weight: bold;
+}
+
+button:hover {
+    border: greenyellow solid 2px;
+}
+
+#card {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+    background-color: white;
+    border: solid black 2px;
+    width: 516px;
+    height: 516px;
+    overflow: auto;
+
+    margin: 30px;
+    border-radius: 5px;
+}
